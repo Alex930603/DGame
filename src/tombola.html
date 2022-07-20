@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <script type="text/javascript"></script>
+    <div style="text-align: center;"> Tombola Magica </div>
+    
+</head>
+<body>
+    <div>Inserisci your number</div>
+       <div>
+         <script>
+         function Tombola() {
+            var cont = 9;
+            var numero;
+            var messaggio;
+            var i;
+        for(i=0;i<cont;i++)
+        {
+        numero[i] = prompt("Inserisci i numeri:");
+        }
+        for(i=0;i<9;i++)
+            {
+            if (numero == null || numero == "" || numero<1 || numero>90){
+              messaggio = "Non corretto";
+            }
+            else {
+             messaggio= " " + numero[i];
+                }
+            }
+            <div id="visualizza"></div>
+        document.getElementById("visualizza").innerHTML = messaggio;
+        }
+        </script>
+       </div>
+</body>
+
+
